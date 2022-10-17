@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Roboto', sans-serif;
+dark green: #4F493D
+medium green: #868944
+light green: #D6D884
+pail: #F6ECE0
+orange: #CE8342
+*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background:#F6ECE0;
+}
+h1, h2, h3 {
+ font-family: 'Fredoka One', cursive;
+}
+h1 {font-size:96px;}
+h2 {font-size:64px;}
+h3 {font-size:36px;}
+strong {
+    font-weight: 700;
+}
+img {
+    width:100%;
+}
+.button {
+    font-size:36px;
+    font-weight:700;
+}
+nav {
+    background: #868944;
+    display:flex;
+    justify-content: space-between;;
+}
+.topnav {
+    display:flex;
+    list-style:none;
+}
+.topnav li {
+    padding-right:60px;
+}
+nav a {
+    color: #fff;
+    text-decoration:none;
+}
+footer {
+    background: #4F493D;
+    display:flex;
+    justify-content:space-between;
+    color: #fff;
+    position:fixed;
+    bottom:0;
+    width:100vw;
+    padding:20px 40px;
+}
+footer a {
+    color: #fff;
+}
+
+.homepage main {
+    display:flex;
+    width:80%;
+    margin:auto;
+    border:1px solid red;
+}
+.homepage main div {
+    flex:1;
+}
+.homepage main .right { padding: 0 200px;}
